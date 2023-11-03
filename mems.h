@@ -181,7 +181,7 @@ void* mems_malloc(size_t size) {
                     
                     
                     ptr2->type = "PROCESS";
-                    printf("%lu\n",ptr2->s_va);
+                    
                     return  (void *)ptr2->s_va;
                 }
                 
